@@ -1,0 +1,29 @@
+.hero__wrapper {
+  background-image: url('../img/img1.jpeg');
+}
+.hero {
+  padding: 10rem 2rem;
+  position: relative;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.hero .title {
+  color: var(--sub-text-color);
+}
+.hero .img {
+  margin-bottom: 4rem;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 20rem 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding: 30rem 0;
+  }
+}
